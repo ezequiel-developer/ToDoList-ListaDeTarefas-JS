@@ -54,9 +54,9 @@ function mostrarTarefas() {
     arrayListaTarefas.forEach((item, posicao) => {
         novaLi += `
             <li class="tarefa ${item.concluido && 'concluido'}" tabindex="0">
-                <img src="assets/img/checked.png" alt="" onclick="concluido(${posicao})">
+                <img src="Projeto ToDoList - JS/assets/img/checked.png" alt="" onclick="concluido(${posicao})">
                 <p>${item.tarefa}</p>
-                <img src="assets/img/trash.png" alt="" onclick="deletar(${posicao})">
+                <img src="Projeto ToDoList - JS/assets/img/trash.png" alt="" onclick="deletar(${posicao})">
             </li>
         `;
     });
